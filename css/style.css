@@ -77,9 +77,10 @@ ul {
 .intro img{  
     margin-bottom: 1rem; 
     width: 100%;
-    height:1400px;
+    height:1200px;
     opacity: 0.4; filter:alpha(opacity=60);
     object-fit: cover;} 
+
       
 .intro button {
     margin-top: 1rem;
@@ -93,8 +94,9 @@ ul {
     box-shadow: 2px 2px 10px rgb(253, 252, 252, 0.5);}
 
 .btn--3:hover {
+    letter-spacing: 1px;
     animation: shadow-pulse 1000ms 1;
-    background-color: #e25720;
+    background-color:#FF4F00;
     color: #434343;}
 
     @keyframes shadow-pulse {
@@ -108,8 +110,6 @@ ul {
 .intro a {
     text-decoration: none;
     color: white}
-
-
 
 .disciplinas {
     display: flex;
@@ -127,7 +127,7 @@ ul {
 
     @keyframes fade-in-bottom {
         0% {
-          transform: translateY(40px);
+          transform: translateY(60px);
           opacity: 0;}
         
           100% {
@@ -173,11 +173,12 @@ ul {
 
 .ofertas img {
     object-fit: cover;
-    border-radius: 40px;
+    border-radius: 30px;
     margin-bottom:40px;
     margin-right:10px;
-    width:400px;
+    width:450px;
     height: 450px;}
+
 
 
 /*--Nutricion--*/
@@ -194,11 +195,10 @@ ul {
    
 
 .nutricion__titulo h4{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 60px;
     text-align: center;
     color:#FF5800;
-    font-weight: lighter;
     letter-spacing: 5px;}
 
 .nutricion__grid{
@@ -217,7 +217,8 @@ ul {
     border-radius: 10px;
     width: 100%;
     height: 100%;
-    object-fit: cover;}
+    object-fit: cover;
+    box-shadow: 8px 8px 8px 0 rgba(253, 253, 253, 0.507)}
 
 .nutricion__grid p{
     color: white;
@@ -291,11 +292,8 @@ ul {
     top: 40%;
     left:10px;}
 
-    .nutricion__grid img:hover{
-        opacity: 0.4; filter:alpha(opacity=60);
-        
-        }
-
+.nutricion__grid img:hover{
+    opacity: 0.4; filter:alpha(opacity=60);}
 
 
 /*--propaganda--*/
@@ -308,47 +306,8 @@ ul {
     justify-content: center;
     width:100%;
     min-height:60vh;
-    background-color: #000000;
-    padding:5rem; }
-
-
-.propaganda__anotarse{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 1rem;
-    background-color:#F7770F;
-    border-radius: 10px;}
-
-.propaganda__anotarse h2 {
-    margin-left:15px;
-    font-size: 25px;
-    color: white;}
-
-
-.propaganda__anotarse p {
-    color: white;
-    margin-left: 30px;
-    margin-bottom: 10px;}
-
-
-.propaganda__anotarse button {
-    padding:2rem;
-    font-size:1rem;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    background-color: black;
-    box-shadow: 2px 2px 10px rgba(5, 5, 5, 0.87);
-    align-self: flex-end;}
-
-.propaganda__anotarse a{
-    color:white;
-    text-decoration: none;}
-
-.propaganda__anotarse button:hover{
-    background-color: rgb(255, 60, 0);}
+    background-color: #0D0D0D;
+    padding:4rem; }
 
 .suscripcion {
     text-align: center;
@@ -371,12 +330,44 @@ ul {
     font-size: 15px;
     margin-left: 20px;
     border-radius: 5px;
-    box-shadow: 2px 2px 10px rgba(253, 252, 252, 0.726); }
+    box-shadow: 2px 2px 10px rgba(253, 252, 252, 0.726);
+    color:black; }
 
  .formHoy button:hover{
     background-color: rgb(255, 145, 0);}
    
 
+/*--container-fluid--*/
+
+
+.container-fluid{
+    padding: 3rem;
+    display: flex;
+    text-align: center;
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ada596); }
+
+.container-fluid a{
+    text-decoration: none;
+    color:white}
+
+.container-fluid button {
+        margin-top: 20px;
+        padding:2rem;
+        font-size:1rem;
+        font-weight: bold;
+        border-radius: 10px;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        background-color: black;
+        box-shadow: 2px 2px 10px rgba(5, 5, 5, 0.87);} 
+
+             
+.container-fluid button:hover{
+        background-color: #FF4800;}   
+
+.registrateAhora{
+    font-size: 18px;}  
+    
+    
 
 /*--footer*/
 
@@ -438,7 +429,6 @@ footer {
     ,url(../imagenes/Hexagon_pagina2.svg);
     width: 100%;
     min-height:10vh;
-    text-align: center;
     padding: 2.5rem;
     color: white;}
     
@@ -450,12 +440,17 @@ footer {
 .coaches p{
     font-size: 2rem;
     font-weight: lighter;
-    letter-spacing: 10px}    
+    letter-spacing: 10px} 
+      
+.presentacionCoaches img{
+    object-fit: cover;
+    width: 100%;
+    height: 800px;}    
 
 
 .introCoaches {
     padding: 9rem;
-    background-color:#0D0D0D;}  /** posiblemente el dia de mañana cambie el fondo**/
+    background-color:black;}  /** posiblemente el dia de mañana cambie el fondo**/
       
     
 .coachInfo{
@@ -476,7 +471,10 @@ footer {
     box-shadow: 2px 2px 10px rgba(253, 252, 252, 0.726);}
 
 .coachInfo button:hover {
-    background-color: #FEDD2D}
+    background-color: #FF4F00}
+.coachInfo  a:hover{
+    color:white} 
+
 
 .coachInfo a{
     text-decoration: none;
@@ -484,9 +482,17 @@ footer {
     color: black }
 
 .coachInfo img {
-    border-radius: 50%;
-}    
+    border-radius: 50%;}
+    
+.middle{
+    background-color: #0D0D0D;} 
+    
+.first{
+    background-color: #0b0b0cea;}    
 
+.last{
+    background-color: #0b0b0cea;}
+    
 
 /*--PAGINA 3--*/
 
@@ -516,11 +522,19 @@ footer {
 
 .infoClases p{
     color:white;
-    max-width: 350px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;}  
+    max-width: 400px;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;}  
+  
     
-    
+h5 {
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+    font-size: 19px;}    
+
+
+
 .infoClases button{
     border-radius: 20px;
     width: 100px;
@@ -534,13 +548,21 @@ footer {
     color: black;
     text-decoration: none;}
 
-
+.card{
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    background: rgba(242, 238, 238, 0.062);
+    box-shadow: 0 8px 32px 0 rgba(253, 253, 253, 0.507);
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 10px;
+}
 
 
     /*--PAGINA 4--*/
 
 .mapa {
-    text-align: center;
     padding: 6rem;
     background-color: #0D0D0D;}
     
@@ -616,11 +638,9 @@ footer {
 .contenido__top h2 {
     letter-spacing: 10px;
     font-size: 3rem;
-    color: #e95e34;
+    color:#FF4F00;
     margin-bottom: 1.5rem;}
 
-.contenido__top p{
-    padding: 1rem}
 
 .forms label {
     font-size: 20px;
@@ -661,9 +681,27 @@ footer {
     font-size: 17px;}  
 
 .forms button:hover{
-    background-color:#FF5800}
+    background-color:#FF4F00}
+.forms a:hover{
+        color:white} 
 
-  
+
+.contactoSuscripcion button {
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    background-color:#DBDBDB;
+    box-shadow: 2px 2px 10px rgba(24, 24, 23, 0.603);}  
+    
+    
+.contactoSuscripcion button:hover{
+        background-color:#FF4F00;}
+.contactoSuscripcion a:hover{
+        color:white}        
+
+
+.contactoSuscripcion a{
+    text-decoration: none;
+    color:black}    
     
 .header__open{
     display: none;}
@@ -711,8 +749,8 @@ footer {
     padding:3rem;}
 
 .disciplinas img {
-    width:300px;
-    height: 250px;} 
+    width:100%;
+    height: 400px;} 
         
 .ofertas {
     padding:3rem;
@@ -722,15 +760,17 @@ footer {
     font-size: 20px;}  
     
 .ofertas img{
-    width:200px;
+    width:250px;
     height:250px;} 
 
 .nutricion{
     width: 100%;
     height: 120vh;}
 
+    
 .nutricion__titulo h4{
     font-size:20px;}
+   
 
 .nutricion__grid{
     grid-template-columns: repeat(3,170px);
@@ -744,27 +784,23 @@ footer {
 
 .nutricion__grid p{
     font-size: 13px;
-     letter-spacing:0} 
+    letter-spacing:0}
+    
                 
 .propaganda {
     text-align: center;
     padding:3rem}
 
-.propaganda__anotarse {
-    flex-direction: column;
-    gap:10px}
-
-.propaganda__anotarse h2{
-    font-size: 20px;} 
-
-.propaganda__anotarse p{
-    margin-left: 0;
-    font-size: 14px;}
-
-.propaganda__anotarse button{
-    padding:0.5rem;
-    font-size: 14px;
-    align-self:center;}  
+ 
+.container-fluid {
+    padding: 2rem;}
+    
+.container-fluid button {
+    padding:1.5rem;} 
+    
+.registrateAhora{
+    font-size: 15px;}  
+        
 
 .suscripcion{
     font-size: 15px;}
@@ -825,6 +861,9 @@ footer{
     padding: 3rem;
     height: 150vh} 
 
+.presentacionCoaches img{
+   height: 400px;}     
+
 .coachInfo{
     display:flex;
     flex-direction: column;
@@ -872,7 +911,7 @@ footer{
     margin-bottom: 1.5rem;} 
 
 .infoClases a{
-        font-size: 13px;} 
+    font-size: 13px;} 
                    
 .infoClases button{
     width: 100px;
@@ -1008,7 +1047,7 @@ h1{
     height: 100%;
     flex-direction: column;
     justify-content: center;
-    gap:1rem;}
+    gap:2.5rem;}
 
 .nav__lista a{
     padding: 0.5rem;
@@ -1086,30 +1125,31 @@ footer{
     padding:2rem;} 
 
 .ofertas img {
-    height: 300px;
-    width:250px;}
+    height: 400px;
+    width:100%;}
 
 .ofertas h3 {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 3rem;} 
 
 
 .nutricion{
-    height: 100%}    
+    height: 100%;}    
 
 .nutricion__titulo h4{
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 60px;
     letter-spacing: 2px}
 
 .nutricion__grid{
+    margin-bottom: 6rem;
     width: 100%;
     height: 100%;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(1,280px);
     grid-template-rows: repeat(7,280px);
-    gap:1rem;
+    gap:2rem;
     grid-template-areas:
         "ele1"
         "ele2"
@@ -1123,33 +1163,24 @@ footer{
     border-radius: 20px;
     width: 100%;
     height: 100%;}
-    
+      
 .propaganda {
     background-color: #0B0B0C;
     padding:1rem;
     text-align: center;}
-    
-.propaganda__anotarse{ 
-    margin-top: 100px;
-    width:90%;
-    flex-direction: column;
-    gap:10px}  
-    
-.propaganda__anotarse h2{
-    text-align: center;
-    font-size: 20px;
-    margin:0;}
-    
-.propaganda__anotarse p {
-    font-size: 15px;}
-    
-.propaganda__anotarse button{
-    padding:1rem;
-    align-self:center;}
 
-.propaganda__anotarse a{
-    font-size: 10px;
-    font-weight: lighter}
+.container-fluid{
+    width: 100%;
+    height: 100%;
+    padding:1rem;}  
+    
+.container-fluid button{
+    margin-left:0px;
+    padding:1rem;
+    font-size: 14px;}     
+    
+.registrateAhora{
+        font-size: 15px;}       
 
 .suscripcion{
     margin-top:150px;
@@ -1169,7 +1200,13 @@ footer{
 
 .formHoy button {
     color:rgba(0, 0, 0, 0,0);}
-     
+
+    .container-fluid{
+        flex-direction: column;
+        text-align: center;
+    }    
+    
+   
 
 /* PAGINA 2*/
 
@@ -1180,6 +1217,9 @@ footer{
 .coaches p{
     font-size: 15px;
     letter-spacing: 5px} 
+
+.presentacionCoaches img{
+    height: 300px;}     
 
 .introCoaches {
     padding: 2rem;
@@ -1244,7 +1284,6 @@ footer{
 /* PAGINA 4*/
 .mapa {
     height: 400px;
-    text-align: center;
     padding: 1rem;}
 
 .mapa iframe{
@@ -1318,7 +1357,6 @@ footer{
     margin-bottom: 2rem;}
     
 .forms button a{
-    font-size: 14px;}  
+    font-size: 14px;} 
 
-    
 }
