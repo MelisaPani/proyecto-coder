@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
 
+    <!--AOS ANIMATION-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
@@ -74,8 +77,12 @@
 
         </section>
 
-        <section class="disciplinas">
-        <div class="fade-in-bottom ">
+        <section class="disciplinas ">
+        <div class="categorias d-flex flex-column align-items-center" data-aos="fade-up">
+            <h3 class="fs-2 mb-5 fw-bold">CATEGORÍAS</h3>
+            <p class="mb-5 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium iusto aliquam a eligendi quod porro explicabo placeat neque odio harum hic, dignissimos aperiam aliquid laborum dicta fugit quibusdam. Vitae, repellat.</p>
+        </div>
+        <div data-aos="fade-up">
             <a href="paginas/pagina-3.html"><img class= "disciplinas__hit" src="./imagenes/hit.png" alt="entrenamiento hit"></a>
             <a href="paginas/pagina-3.html"><img class= "disciplinas__power" src="./imagenes/power.PNG" alt="entrenamiento power"></a>
             <a href="paginas/pagina-3.html"><img class="disciplinas__cardio"src="./imagenes/cardio.png" alt="entrenamiento cardio"></a>
@@ -85,7 +92,7 @@
         </section>
 
         <section class="ofertas"> <!--  class="ofertas"--imagenes con alguna animacion atrayente -->
-        <div class="fade-in-bottom  ">
+        <div data-aos="fade-up">
             
             <div>
             <h3>Elige el plan que más te guste y entrena con nuestros</h3>
@@ -103,43 +110,43 @@
         
         <section class="nutricion">
             <div class="nutricion__titulo">
-                <h4 class="fw-lighter">Trabajamos interdisciplinariamente con un nutricionista </h4>
+                <h4 class="fw-bold" data-aos="fade-up">TRABAJAMOS INTERDISCIPLINARIAMENTE CON UN NUTRICIONISTA</h4>
             </div>
 
         <div class="fade-in-bottom nutricion__grid">
 
-            <div class="nutricion__beneficio1">
+            <div class="nutricion__beneficio1" data-aos="fade-right">
                 <p> Crea un nuevo habito de alimentacion para lograr llegar a tu objetivo.
                     Basa tu plan nutricional en alimentos saludables y alejate de las dietas milagros,suplementos que no son necesarios, quema-grasas o derivados. </p>
                 <img src="./imagenes/nutri0.png"  alt="beneficio1">
              </div>
 
-             <div class="nutricion__beneficio2">
+             <div class="nutricion__beneficio2" data-aos="fade-down">
                 <p>Mejora sustancialmente el rendimiento deportivo  </p>
                 <img src="./imagenes/nutricion2.JPG" alt="beneficio2">
              </div>
 
-             <div class="nutricion__beneficio3">
+             <div class="nutricion__beneficio3" data-aos="fade-down">
                 <p>Planifa un plan nutricional adaptado a la actividad deportiva </p>
                 <img src="./imagenes/nutricion3.JPG" alt="beneficio3">
              </div>
 
-             <div class="nutricion__beneficio4">
+             <div class="nutricion__beneficio4" data-aos="fade-up">
                 <p>Mantene los niveles energeticos durante el entrenamiento para un mejor resultado </p>
                 <img src="./imagenes/nutricion4.JPG" alt="beneficio4">
             </div>
 
-            <div class="nutricion__beneficio5">
+            <div class="nutricion__beneficio5" data-aos="fade-left">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, earum! In nulla sed nostrum laborum voluptatem </p>
                 <img src="./imagenes/nutricion5.JPG" alt="beneficio5">
             </div>
 
-            <div class="nutricion__beneficio6">
+            <div class="nutricion__beneficio6" data-aos="fade-left">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, earum! In nulla sed nostrum laborum voluptatem </p>
                 <img src="./imagenes/nutricion6.JPG" widht="300px" height="300px" alt="beneficio6">
             </div>
 
-            <div class="nutricion__beneficio7">
+            <div class="nutricion__beneficio7" data-aos="fade-left">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, earum! In nulla sed nostrum laborum voluptatem </p>
                 <img src="./imagenes/nutricion7.JPG" widht="300px" height="300px" alt="beneficio7">
             </div>
@@ -153,11 +160,11 @@
 
             <div class="row p-4">
                 <div class="col-lg-6 col-md-12 primero">
-                    <h2 class="fw-bold mb-4">REGISTRATE AHORA GRATIS!</h2>
-                    <p class="registrateAhora">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi voluptas incidunt officia accusantium at, aperiam cupiditate porro quos necessitatibus laudantium consectetur, dolor omnis, quia sit neque rerum blanditiis id consequuntur.</p>
+                    <h2 class="fw-bold mb-4" data-aos="fade-up">REGISTRATE AHORA GRATIS!</h2>
+                    <p class="registrateAhora" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi voluptas incidunt officia accusantium at, aperiam cupiditate porro quos necessitatibus laudantium consectetur, dolor omnis, quia sit neque rerum blanditiis id consequuntur.</p>
                 </div>
                 <div class="col-lg-6 col-md-12 segundo">
-                    <button><a href= "paginas/pagina-3.html">QUIERO EMPEZAR HOY</a></button>
+                    <button data-aos="fade-up"><a href= "paginas/pagina-3.html">QUIERO EMPEZAR HOY</a></button>
                 </div>
             </div>
         
@@ -203,6 +210,15 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!--AOS ANIMATION-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          once:true,
+         duration:1000,
+        delay:500,});
+    </script>
 
 </body>
 </html>
