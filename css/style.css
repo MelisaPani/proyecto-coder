@@ -432,6 +432,7 @@ footer {
     padding: 2.5rem;}
     
 .coaches h3{
+    margin-top: 9rem;
     font-size: 3rem;
     letter-spacing: 10px;
     padding: 20px;}
@@ -499,6 +500,7 @@ footer {
 /*--PAGINA 3--*/
 
 .video{
+    margin-top: 7.5rem;
     height: 80vh;
     background-color: black;}
 
@@ -571,6 +573,7 @@ h5 {
     /*--PAGINA 4--*/
 
 .mapa {
+    margin-top: 7.5rem;
     padding: 6rem;
     background-color: #0D0D0D;}
     
@@ -629,7 +632,7 @@ h5 {
     ,url(../imagenes/Polygon\ Luminary_pagina5.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 90vh;
+    margin-top: 7rem;
     color: white;
     padding: 5rem;}
 
@@ -740,6 +743,7 @@ h5 {
     padding: 0.5rem;} 
      
 .intro img{
+    margin-top: 6rem;
     height: 600px;}
 
 .intro button{
@@ -851,6 +855,7 @@ footer{
     color: white;}
  
 .coaches h3{
+    margin-top: 8rem;
     font-size: 30px;
     letter-spacing: 5px;}  
     
@@ -893,6 +898,7 @@ footer{
 /*PAGINA 3*/
 
 .video{
+    margin-top: 10rem;
     height: 50vh;}
 
 .video iframe{
@@ -922,6 +928,7 @@ footer{
 /*PAGINA 4*/
 
 .mapa {
+    margin-top: 10rem;
     padding: 3rem;}
 
 .mapa iframe{
@@ -965,6 +972,7 @@ footer{
     text-align: center;} 
     
 .contenido__top h2 {
+    margin-top: 4rem;
     letter-spacing: 5px;
     font-size: 30PX; }    
   
@@ -1034,7 +1042,7 @@ h1{
     background-color: rgba(0, 0, 0, 0.8);
     display: block;
     width: 100%;
-    height: 50%;
+    height: 100vh;
     position: fixed;
     top:0;
     right:-100%;
@@ -1046,7 +1054,7 @@ h1{
     right:0;}    
         
 .nav__lista{
-    height: 100%;
+    height: 50%;
     flex-direction: column;
     justify-content: center;
     gap:2.5rem;}
@@ -1096,6 +1104,7 @@ footer{
     
     
 .intro img{  
+    margin-top: 3.5rem;
     margin-bottom: 1rem; 
     width: 100%;
     height:400px;
@@ -1213,7 +1222,8 @@ footer{
 
 .coaches h3{
     font-size: 20px;
-    letter-spacing: 5px;}
+    letter-spacing: 5px;
+    margin-top: 3rem;}
 
 .coaches p{
     font-size: 15px;
@@ -1254,7 +1264,8 @@ footer{
 
 /* PAGINA 3*/    
 .video{
-    height: 40vh;}
+    height: 40vh;
+    margin-top: 3rem;}
 
 .video iframe {
     margin-top: 70px;
@@ -1290,7 +1301,8 @@ footer{
 /* PAGINA 4*/
 .mapa {
     height: 400px;
-    padding: 1rem;}
+    padding: 1rem;
+    margin-top: 3rem;}
 
 .mapa iframe{
     height: 300px;
@@ -1326,7 +1338,8 @@ footer{
 /* PAGINA 5*/
 
 .contenido {
-    padding: 1rem;}
+    padding: 1rem;
+    margin-top: 3.5rem;}
 
 .contenido__top {
     height: 150px;
@@ -1334,6 +1347,7 @@ footer{
     text-align: center;}  
         
 .contenido__top h2 {
+    margin-top: 3rem;
     letter-spacing: 5px;
     font-size: 20PX; }
         
