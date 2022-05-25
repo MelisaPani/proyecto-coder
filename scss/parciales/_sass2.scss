@@ -1,0 +1,16 @@
+$estilos: (
+    background-color1:black,
+    text-align:center,
+    background-color2:#0D0D0D,);
+
+ @mixin sizes ($width, $height) {
+     height: $height;
+     width: $width;};
+     
+ @mixin generarFlex($direction, $eje-principal, $eje-secundario) {
+     display: flex;
+     flex-direction: $direction;
+     justify-content: $eje-principal;
+     align-items: $eje-secundario;}  
+ 
+    

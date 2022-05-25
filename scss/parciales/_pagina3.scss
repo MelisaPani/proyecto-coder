@@ -1,7 +1,7 @@
 /*--PAGINA 3--*/
 
 .video{
-    margin-top: 7.5rem;
+    margin-top: 5.5rem;
     height: 80vh;
     background-color: black;
 & iframe{
@@ -26,9 +26,7 @@
     ,url(../imagenes/ladrillos.jpg);
 & img {
     border-radius: 20px;
-    width: 400px;
-    height: 300px;
-    margin-right: 2rem;
+    @include sizes(450px, 300px);
     object-fit: cover;}
 & p{
     color:white;
@@ -36,6 +34,7 @@
     margin-top: 2rem;
     margin-bottom: 1.5rem;}
 & button{
+    margin-bottom: 15px;
     border-radius: 10px;
     width: 100px;
     height: 30px;
@@ -53,9 +52,10 @@ h5 {
     font-size: 19px;}    
 
 .card{
-    height: 600px;
-    text-align: center;
+    margin-right: 20px;
     padding: 2rem;
+    height: 670px;
+    text-align: center;
     margin-bottom: 2rem;
     background: rgba(242, 238, 238, 0.062);
     box-shadow: 0 8px 32px 0 rgba(253, 253, 253, 0.507);

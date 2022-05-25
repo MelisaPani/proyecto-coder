@@ -1,0 +1,15 @@
+
+
+Utilice SASS II principalmente en la página 1 , aplique el map-get en los background de las secciones y la propiedad text-align center para los subtítulos.
+El mixin sizes lo apliqué en todas las imágenes de las 5 páginas. 
+El mixin generarflex lo aplique únicamente en la pag. pricipal.
+Utilice la propiedad extend en la página principal en la clase disciplinas. 
+ 
+SEO
+Utilice photoshop y la pág. tinypng.com para reducir el peso de las imágenes 
+Agregue los meta de descripción y keywords en las 5 paginas
+Verifiqué y corregí la jerarquía de los encabezados
+Cambie los title de las 5 paginas
+Cree el archivo sitemap.xml
+Genere el reporte desde el inspector/Lighthouse para la optimización móvil
+Complete los lorem que tenía pendiente (me quedan pendientes las imágenes de la pág.2)
