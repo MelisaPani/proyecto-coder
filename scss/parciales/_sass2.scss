@@ -4,8 +4,9 @@ $estilos: (
     background-color2:#0D0D0D,);
 
  @mixin sizes ($width, $height) {
+     width: $width;
      height: $height;
-     width: $width;};
+     };
      
  @mixin generarFlex($direction, $eje-principal, $eje-secundario) {
      display: flex;

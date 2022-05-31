@@ -35,10 +35,11 @@ header {
 }
 
 h1 {
-  font-weight: lighter;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   color: #FF4814;
   margin-right: 40px;
+  letter-spacing: 3px;
 }
 
 .contactou {
@@ -49,6 +50,11 @@ h1 {
   margin-left: 2rem;
   width: 40px;
   height: 40px;
+  transition: all 400ms ease;
+}
+
+.contactou img:hover {
+  transform: translateY(-4%);
 }
 
 .nav__lista {
@@ -98,10 +104,9 @@ ul {
 
 .intro img {
   margin-bottom: 1rem;
+  margin-top: 5rem;
   width: 100%;
   height: 1200px;
-  opacity: 0.4;
-  filter: alpha(opacity=60);
   object-fit: cover;
 }
 
@@ -118,12 +123,12 @@ ul {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(247, 243, 243, 0.18);
+  border: 2px solid #F2F2F2;
 }
 
 .btn--3:hover {
   animation: shadow-pulse 1000ms 1;
-  background-color: #FF4814;
+  background-color: #ff4714d2;
   color: #434343;
 }
 
@@ -156,14 +161,21 @@ ul {
 }
 
 .disciplinas img {
-  height: 400px;
   width: 400px;
+  height: 400px;
   object-fit: cover;
   border-radius: 30px;
   margin-left: 10px;
   margin-bottom: 10px;
   opacity: 0.9;
   filter: alpha(opacity=60);
+  transition: all 400ms ease;
+}
+
+.disciplinas img:hover {
+  box-shadow: 5px 5px 5px rgba(97, 95, 95, 0.863);
+  transform: translateY(-2%);
+  opacity: 0.6;
 }
 
 /*--ofertas--*/
@@ -193,8 +205,8 @@ ul {
   border-radius: 30px;
   margin-bottom: 40px;
   margin-right: 10px;
-  height: 450px;
   width: 450px;
+  height: 450px;
   transition: all 1s;
 }
 
@@ -232,21 +244,25 @@ ul {
 }
 
 .nutricion__grid img {
-  border-radius: 10px;
+  border-radius: 5px;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  box-shadow: 8px 8px 8px 0 rgba(253, 253, 253, 0.507);
+  border: 2px solid #F2F2F2;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  cursor: pointer;
 }
 
 .nutricion__grid p {
   color: white;
-  backdrop-filter: blur(7px);
+  font-weight: bolder;
   border-radius: 5px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 5px;
   margin-right: 10px;
+  z-index: 1;
 }
 
 .nutricion__beneficio1 {
@@ -327,8 +343,7 @@ ul {
 }
 
 .nutricion__grid img:hover {
-  opacity: 0.4;
-  filter: alpha(opacity=60);
+  box-shadow: 8px 8px 8px 0 rgba(253, 253, 253, 0.507);
 }
 
 /*--propaganda--*/
@@ -485,7 +500,7 @@ footer {
 }
 
 .coachInfo {
-  padding: 70px;
+  padding: 40px;
   color: white;
 }
 
@@ -518,10 +533,9 @@ footer {
 }
 
 .coachInfo img {
-  border-radius: 50%;
   transition: 1s;
-  height: 200px;
-  width: 200px;
+  width: 300px;
+  height: 350px;
 }
 
 .coachInfo img:hover {
@@ -565,8 +579,8 @@ footer {
 
 .infoClases img {
   border-radius: 20px;
-  height: 300px;
   width: 450px;
+  height: 300px;
   object-fit: cover;
 }
 
@@ -809,6 +823,9 @@ h5 {
     width: 100%;
     height: 400px;
   }
+  .disciplinas img:hover {
+    transform: translateY(-2%);
+  }
   .ofertas {
     padding: 3rem;
     min-height: 50vh;
@@ -931,8 +948,8 @@ h5 {
     font-size: 15px;
   }
   .coachInfo img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 350px;
     align-self: center;
   }
   /*PAGINA 3*/
@@ -1053,6 +1070,7 @@ h5 {
     flex-direction: row;
     line-height: 0;
     text-align: justify;
+    justify-content: space-evenly;
   }
   .logo img {
     width: 40px;
@@ -1060,12 +1078,16 @@ h5 {
   }
   h1 {
     font-size: 15px;
+    margin-right: 2px;
   }
   .contactou img {
     width: 20px;
     height: 20px;
     margin-left: 10px;
     margin-bottom: 10px;
+  }
+  .contactou {
+    min-width: 50px;
   }
   .header__open {
     display: block;
@@ -1134,8 +1156,6 @@ h5 {
     margin-bottom: 1rem;
     width: 100%;
     height: 400px;
-    opacity: 0.4;
-    filter: alpha(opacity=60);
   }
   .intro button {
     margin-top: 0px;
@@ -1156,10 +1176,13 @@ h5 {
     border-radius: 30px;
     width: 100%;
     height: 300px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-bottom: 10px;
     opacity: 0.9;
     filter: alpha(opacity=60);
+  }
+  .disciplinas img:hover {
+    transform: translateY(-1%);
   }
   .ofertas {
     padding: 2rem;
@@ -1274,7 +1297,7 @@ h5 {
   }
   .coachInfo img {
     width: 200px;
-    height: 200px;
+    height: 250px;
     align-self: center;
   }
   /* PAGINA 3*/

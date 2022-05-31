@@ -30,7 +30,7 @@
           
         
 .coachInfo{
-    padding:70px;
+    padding:40px;
     color: white;
 & p{
     padding: 0px 30px;
@@ -52,9 +52,9 @@
     font-size: 17px;
     color: black }
 & img {
-    border-radius: 50%;
+    
     transition: 1s;
-    @include sizes(200px, 200px)}
+    @include sizes(300px, 350px)}
 & img:hover{
     transform: scale(1.1);}  }
       
