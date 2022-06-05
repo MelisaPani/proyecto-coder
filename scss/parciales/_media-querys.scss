@@ -25,14 +25,17 @@
     
     .nav__lista a{
         padding: 0.5rem;} 
-         
+     
+    .intro{
+        margin-top: 10rem;}
+
     .intro img{
-        margin-top: 6rem;
         height: 600px;}
     
     .intro button{
         font-size: 17px;
-        padding: 6px 12px;}
+        padding: 6px 12px;
+        bottom:60px;}
     
     .disciplinas {
         padding:3rem;}
@@ -56,14 +59,11 @@
         height:auto;} 
     
     .nutricion{
-        width: 100%;
-        height: 120vh;}
-    
+        padding: 5rem;}    
         
     .nutricion__titulo h2{
         font-size:20px;}
-       
-    
+           
     .nutricion__grid{
         grid-template-columns: repeat(3,170px);
         grid-template-rows: repeat(4,250px);
@@ -136,13 +136,10 @@
     /* PAGINA 2 */
     
     .coaches {
-        width: 100%;
-        height: 100hv;
-        padding: 3rem;
-        color: white;}
+        padding: 3rem;}
      
     .coaches h3{
-        margin-top: 8rem;
+        margin-top: 3rem;
         font-size: 30px;
         letter-spacing: 5px;}  
         
@@ -155,7 +152,11 @@
         height: 150vh} 
     
     .presentacionCoaches img{
-       height: 400px;}     
+       height: 400px;}
+       
+    .carousel-caption p{
+        font-size: 20px;
+        margin-bottom: 50px;}   
     
     .coachInfo{
         display:flex;
@@ -183,18 +184,24 @@
         align-self: center;} 
     
     /*PAGINA 3*/
-    
-    .video{
-        margin-top: 10rem;
-        height: 50vh;}
+
+    .clases {
+        padding: 3rem;}
+     
+    .clases h3{
+        margin-top: 8rem;
+        font-size: 30px;
+        letter-spacing: 5px;}  
+        
+    .clases p{
+        font-size: 16px;
+        letter-spacing: 5px}  
     
     .video iframe{
-         width: 100%;
         height: 500px;}      
     
     .infoClases{
-        padding: 3rem;
-        min-height:60rem;}  
+        padding: 3rem;}  
     
     .infoClases img {
         width: 300px;
@@ -213,15 +220,28 @@
     
     
     /*PAGINA 4*/
+
+    .ubicacion {
+        padding: 3rem;}
+
+    .ubicacion h3{
+        margin-top: 8rem;
+        font-size: 30px;
+        letter-spacing: 5px;}  
+        
+    .ubicacion p{
+        font-size: 16px;
+        letter-spacing: 5px}  
     
     .mapa {
-        margin-top: 10rem;
+        margin-top: 0rem;
         padding: 3rem;}
     
     .mapa iframe{
         height: 500px;}   
     
     .lugarClases{
+        min-height: 30vh;
         padding: 3rem;}  
         
     .lugarClases h3{
@@ -395,27 +415,30 @@
           
     /**pagina 1**/
         
-        
+     .intro{
+         margin-top: 3rem;}  
+
     .intro img{  
-        margin-top: 3.5rem;
-        margin-bottom: 1rem; 
         width: 100%;
         height:400px;}        
             
     .intro button {
-        margin-top: 0px;
-        margin-bottom: 2rem;
+        right:30%;
+        bottom:20px;
         font-size:11px;
         padding: 7px;}    
         
     .disciplinas {
-        min-height: 130vh;
-        padding:2rem;
+        min-height: 120vh;
+        padding:1rem;
         justify-content: center;
         background-color: rgb(11, 11, 12);}
 
     .disciplinas p{
         text-align: center;}
+
+    .disciplinas h2{
+        margin-top: 3rem;}    
         
     .disciplinas img {
         border-radius: 30px;
@@ -433,7 +456,8 @@
     
     .ofertas img {
         height: auto;
-        width:100%;}
+        width:100%;
+        margin-right:0px;}
     
     .ofertas h2 {
         font-size: 25px;
@@ -441,7 +465,7 @@
     
     
     .nutricion{
-        height: 100%;}    
+        padding: 1rem;}    
     
     .nutricion__titulo h2{
         margin-top: 40px;
@@ -472,10 +496,6 @@
         width: 100%;
         height: 100%;}
           
-    .propaganda {
-        background-color: #0B0B0C;
-        padding:1rem;
-        text-align: center;}
     
     .container-fluid{
         width: 100%;
@@ -485,13 +505,17 @@
     .container-fluid button{
         margin-left:0px;
         padding:1rem;
-        font-size: 14px;}     
+        font-size: 14px;}  
         
     .registrateAhora{
-            font-size: 15px;}       
+        font-size: 15px;}       
+        
+    .propaganda {
+        background-color: #0B0B0C;
+        padding:1rem;
+        text-align: center;}  
     
     .suscripcion{
-        margin-top:150px;
         font-size: 15px;}
     
     .formHoy{
@@ -525,7 +549,8 @@
         letter-spacing: 5px} 
     
     .presentacionCoaches img{
-        height: 300px;}     
+        height: 300px;} 
+          
     
     .introCoaches {
         padding: 2rem;
@@ -557,19 +582,26 @@
         align-self: center;} 
     
     
-    /* PAGINA 3*/    
-    .video{
-        height: 40vh;
-        margin-top: 3rem;}
+    /* PAGINA 3*/  
     
-    .video iframe {
-        margin-top: 70px;
-        height: 30vh;}
+    .clases h3{
+        font-size: 20px;
+        letter-spacing: 5px;
+        margin-top: 2rem;}
+    
+    .clases p{
+        font-size: 15px;
+        letter-spacing: 5px} 
+
+    
+    .video iframe{
+        height: 400px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;}
      
     .infoClases{
         flex-direction: column;
-        padding: 1rem;
-        height:100%;} 
+        padding: 1rem;} 
     
     .infoClases img {
         border-radius: 5px;
@@ -594,19 +626,27 @@
         margin-right: 0px;
         height: 530px;
         padding: 1rem;
-        margin-bottom: 1rem;}
+        margin-bottom: 1rem;
+    margin-top: 2rem;}
     
     /* PAGINA 4*/
+
+    .ubicacion h3{
+        font-size: 20px;
+        letter-spacing: 5px;
+        margin-top: 2rem;}
+    
+    .ubicacion p{
+        font-size: 15px;} 
+
     .mapa {
-        height: 400px;
-        padding: 1rem;
-        margin-top: 3rem;}
+        padding: 1rem;}
     
     .mapa iframe{
-        height: 300px;
-        margin-top: 30PX;}   
+        height: 300px;}   
     
     .lugarClases{
+        min-height: 30vh;
         padding: 2rem;}
         
     .lugarClases h3{

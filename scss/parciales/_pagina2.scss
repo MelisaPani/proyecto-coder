@@ -3,8 +3,8 @@
 .coaches {
     background-image: linear-gradient(
         0deg, 
-        rgba(0,0,0,0.7),
-        rgba(0,0,0,0.4)
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.7)
         )
         ,url(../imagenes/Hexagon_pagina2.svg);
     width: 100%;
@@ -18,17 +18,22 @@
 & p{
     font-size: 2rem;
     letter-spacing: 10px}}
+  
                
 .presentacionCoaches img{
     object-fit: cover;
-    width: 100%;
-    height: 1200px;}  
-    
+    height: 750px;}  
+ 
+.carousel-caption p{
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: bold;}    
+
 .introCoaches {
     padding: 9rem;
     background-color:#0A0A0A;}  
           
-        
+    
 .coachInfo{
     padding:40px;
     color: white;
@@ -37,8 +42,8 @@
     align-self: center;};
    
 & button {
-    min-width: 100px;
-    height: 30px;
+    min-width: 130px;
+    height: 40px;
     align-self: flex-end;
     background-color:white ;
     border-radius: 10px;
