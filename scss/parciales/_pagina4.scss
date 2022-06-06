@@ -52,7 +52,9 @@
     height: 800px;}}    
  
 .masLugares{
-    background-color:#0D0D0D ;
+    background-image: url(../imagenes/fondopiedra.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
     color: white;
     justify-content: center;

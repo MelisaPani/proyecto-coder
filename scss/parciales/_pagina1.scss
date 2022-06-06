@@ -108,8 +108,9 @@ transition:all 400ms ease;}}
     text-align: map-get($estilos,text-align);
     color:$color-principal;}
 &__grid{
+    max-width: 1700px;
     display: grid;
-    grid-template-columns: repeat(5,180px);
+    grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(2,300px);
     gap:1.5rem;
     grid-template-areas:
@@ -129,8 +130,8 @@ cursor: pointer;}
     border-radius: 5px;
     text-align: map-get($estilos,text-align);
     font-size: 16px;
-    margin-left: 5px;
-    margin-right:10px;
+    ;
+   
     z-index: 1;}}
 
 .nutricion__beneficio1{
@@ -138,16 +139,18 @@ cursor: pointer;}
     position: relative;
 & p{
     position: absolute;
-    top: 40%;
-    left:10px;}} 
+    top: 30%;
+    left:10px;
+    right:10px;}} 
             
 .nutricion__beneficio2{
     grid-area: ele2;
     position: relative;
 & p{
     position: absolute;
-    top: 30%;
-    left:10px;}} 
+    top: 10%;
+    left:10px;
+    right:10px}} 
 
 .nutricion__beneficio3{
     grid-area: ele3;
@@ -155,7 +158,8 @@ cursor: pointer;}
 & p{
     position: absolute;
     top: 20px;
-    left:10px;}} 
+    left:10px;
+    right:10px}} 
 
 .nutricion__beneficio4{
     grid-area: ele4;
@@ -163,7 +167,8 @@ cursor: pointer;}
 & p{
     position: absolute;
     top: 20px;
-    left:10px;}}  
+    left:10px;
+    right:10px}}  
 
 .nutricion__beneficio5{
     grid-area: ele5;
@@ -171,7 +176,8 @@ cursor: pointer;}
 & p{
     position: absolute;
     top: 60px;
-    left:10px;}} 
+    left:10px;
+    right:10px}} 
 
 .nutricion__beneficio6{
     grid-area: ele6;
@@ -179,7 +185,8 @@ cursor: pointer;}
 & p{
     position: absolute;
     top: 20px;
-    left:10px;}} 
+    left:10px;
+    right:10px}} 
 
 .nutricion__beneficio7{
     grid-area: ele7;
@@ -187,7 +194,8 @@ cursor: pointer;}
 & p{
     position: absolute;
     top: 40%;
-    left:10px;}}
+    left:10px;
+    right:10px}}
 
 .nutricion__grid img:hover{
     box-shadow: 0 8px 32px 0 rgba(253, 253, 253, 0.507);}

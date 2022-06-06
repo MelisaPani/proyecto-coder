@@ -65,14 +65,14 @@
         font-size:20px;}
            
     .nutricion__grid{
-        grid-template-columns: repeat(3,170px);
+        grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(4,250px);
             gap:1.5rem;
             grid-template-areas:
             "ele1 ele2 ele3 "
             "ele1 ele4 ele4 "
-            "ele5  . ele6 " 
-            "ele5 ele7 .";}
+            "ele5 . . " 
+            "ele5 ele7 ele6";}
     
     .nutricion__grid p{
         font-size: 13px;
@@ -139,7 +139,7 @@
         padding: 3rem;}
      
     .coaches h3{
-        margin-top: 3rem;
+        margin-top: 8rem;
         font-size: 30px;
         letter-spacing: 5px;}  
         
@@ -321,7 +321,7 @@
         display: none;}
         
     .header{
-        padding:10px;
+        padding:20px;
         flex-direction: row;
         line-height: 0;
         text-align:justify;
@@ -430,12 +430,14 @@
         
     .disciplinas {
         min-height: 120vh;
-        padding:1rem;
+        padding:1.5rem;
         justify-content: center;
         background-color: rgb(11, 11, 12);}
 
     .disciplinas p{
-        text-align: center;}
+        text-align: center;
+        margin-right: 1rem;
+        margin-left: 1rem;}
 
     .disciplinas h2{
         margin-top: 3rem;}    
@@ -465,7 +467,7 @@
     
     
     .nutricion{
-        padding: 1rem;}    
+        padding: 1.5rem;}    
     
     .nutricion__titulo h2{
         margin-top: 40px;
@@ -549,9 +551,8 @@
         letter-spacing: 5px} 
     
     .presentacionCoaches img{
-        height: 300px;} 
-          
-    
+        height: 300px;}  
+             
     .introCoaches {
         padding: 2rem;
         height: 100%;}
@@ -601,7 +602,7 @@
      
     .infoClases{
         flex-direction: column;
-        padding: 1rem;} 
+        padding: 2rem 1rem;} 
     
     .infoClases img {
         border-radius: 5px;
